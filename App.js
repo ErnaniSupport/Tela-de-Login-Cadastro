@@ -8,7 +8,7 @@ function TelaLogin() {
       flexDirection: "column",
     }]}>
       <View style={{ flex: 2 }}>
-        <Image style={{ width: 220, height: 220 }} source={require('../TelasLoginCadastro/assets/Marca.jpeg')} />
+        <Image style={{ width: 220, height: 220 }} source={require('../Tela-de-Login-Cadastro/assets/Marca.jpeg')} />
       </View>
 
       <Input label='Email' placeholder="Informe o seu E-mail" />
@@ -38,7 +38,7 @@ function cadastroTela() {
       flexDirection: "column",
     }]}>
       <View style={{ flex: 2 }}>
-        <Image style={{ width: 220, height: 220 }} source={require('../TelasLoginCadastro/assets/Marca.jpeg')} />
+        <Image style={{ width: 220, height: 220 }} source={require('../Tela-de-Login-Cadastro/assets/Marca.jpeg')} />
         <Text style={{ color: "red", textAlign: 'center', fontWeight: 'bold', fontSize: 30 }}>CADASTRO</Text>
       </View>
 
